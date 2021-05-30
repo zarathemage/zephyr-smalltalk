@@ -1,3 +1,3 @@
 # zephyr-smalltalk
 
-a common smalltalk implmentation
+a common smalltalk implementation
