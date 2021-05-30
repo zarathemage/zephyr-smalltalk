@@ -1,10 +1,12 @@
 #ifndef __ZEPHYR_WINDOW_H_
 #define __ZEPHYR_WINDOW_H_
 
-#include "zephyrwindow.h"
+#include "zephyrstructure.h"
+#include "zephyrbehaviour.h"
 
 typedef struct zephyr_window {
-	ZephyrStructurePtr zs;
+  ZephyrStructurePtr zs;
+  ZephyrBehaviourPtr zbh;
 } ZephyrWindow;
 
 typedef ZephyrWindow *ZephyrWindowPtr;	
@@ -14,6 +16,6 @@ void delete_zephyr_window(ZephyrWindowPtr zw);
 
 void move_zehpyr_window(int x, int y, ZephyrWindowPtr zw);
 
-//write_out_zephyr_window(long int offset);
+void write_out_zephyr_window(long int offset, ZephyrStructurePtr zs, ZephyrBehaviourPtr zbh, ImageBufPtr buf);
 
 #endif

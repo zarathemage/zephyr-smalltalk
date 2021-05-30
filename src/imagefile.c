@@ -9,7 +9,7 @@ WORD shift_image_once(int ls, ImageBufPtr image)
 	return (*(image->(words))-*((image->(words)-ls)--; 
 }
 
-WORD* shift_bytes(int ls, int offset, int size, ImageBufferPtr image);
+WORD* shift_bytes(int ls, int offset, int size, ImageBufPtr image);
 {
 	return *(image->words)+offset-size - *(image->words)+offset; 
 }	

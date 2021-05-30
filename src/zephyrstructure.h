@@ -3,13 +3,14 @@
 
 // (offset) in the image
 typedef struct zephyr_structure {
-	int x,y,width,height;
+	int x,y;
+	unsigned int width,height;
 } ZephyrStructure;
 
 typedef ZephyrStructure *ZephyrStructurePtr;	
 
 ZephyrStructurePtr make_zephyr_structure(int x, int ,y ,int w, int h, 
-					ZephyrSturecturePtr zs);
+					ZephyrStructurePtr zs);
 
 void delete_zephyr_structure(ZephyrStructurePtr zs);
 

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 ZephyrStructurePtr make_zephyr_structure(int x, int ,y ,int w, int h, 
-					ZephyrSturecturePtr zs)
+					ZephyrStructurePtr zs)
 {
 	zs = (ZephyrStructurePtr)malloc(sizeof ZephyrStructure);
 

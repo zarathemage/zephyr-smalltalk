@@ -26,6 +26,8 @@ int smalltalk_loop(ZSControllerPtr zsc) {
 				mousetype &= 0x96 + 0x9600;
                		else if (e.button.button == SDL_BUTTON_RIGHT) 
 				mousetype &= 0x96 + 0x960000;
+			else
+				mousetype = 0;
 		}
 
 		zsc.update(mousex,mousey, mousetype);
