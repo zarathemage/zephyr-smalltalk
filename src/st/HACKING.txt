@@ -1,0 +1,25 @@
+The syntax of a .st file is as follows :
+an example :
+
+" Copyright (C) 2021 Zara.
+  See the LICENSE file for details 
+"
+
+Object subclass: #Solstice
+	instance:''
+        class: ''
+
+new
+	| |
+
+
+mainloop
+	| |
+
+
+There is a newline after each method, instance: contains the instance variable
+names and class: the class variable names.
+
+The derived Object has a # before it, so #Solstice.
+
+End of File ends parsing for this class. TODO : class methods.
