@@ -3,8 +3,8 @@
 "
 
 Object subclass: #Solstice
-	variables:''
-        classVariables: ''
+	instance:''
+        class: ''
 
 new
 	| |
@@ -12,6 +12,5 @@ new
 
 mainloop
 	| |
-
 
 
