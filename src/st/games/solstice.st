@@ -3,23 +3,23 @@
 "
 
 Object subclass: #Solstice
-	instanceVariableNames:''
-        classVariableNames: ''
-        poolDictionaries: ''
-        category: nil !
+	variables:''
+        classVariables: ''
+        category: 'Solstice' 
+# 
 
-!Solstice methodsFor: 'instance creation'!
+#Solstice category: 'constructors' # 
 
 new
 	| |
 
-!
+#
 
-!Solstice methodsFor: 'mainloop'!
+#Solstice category: 'mainloop' #
 
 
 mainloop
 	| |
 
 
-!!
+##
