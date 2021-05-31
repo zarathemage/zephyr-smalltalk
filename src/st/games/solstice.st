@@ -9,8 +9,8 @@ Object subclass: #Solstice
 new
 	| |
 
-
+#
 mainloop
 	| |
 
-
+#

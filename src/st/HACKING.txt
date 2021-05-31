@@ -12,12 +12,13 @@ Object subclass: #Solstice
 new
 	| |
 
-
+#
 mainloop
 	| |
 
+#
 
-There is a newline after each method, instance: contains the instance variable
+There is a '#' after each method, instance: contains the instance variable
 names and class: the class variable names.
 
 The derived Object has a # before it, so #Solstice.
