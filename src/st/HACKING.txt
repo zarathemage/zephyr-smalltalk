@@ -19,6 +19,7 @@ mainloop
 
 #
 
+Everything between "" are comments.
 There is a '#' after each method, instance: contains the instance variable
 names and class: the class variable names.
 
