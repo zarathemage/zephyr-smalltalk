@@ -8,6 +8,7 @@ an example :
 Object subclass: #Solstice
 	instance:''
         class: ''
+#
 
 new
 	| |
@@ -21,6 +22,7 @@ mainloop
 There is a '#' after each method, instance: contains the instance variable
 names and class: the class variable names.
 
-The derived Object has a # before it, so #Solstice.
+The derived Object has a '#' before it, so #Solstice and a '#' after the 
+class definition.
 
 End of File ends parsing for this class. TODO : class methods.
