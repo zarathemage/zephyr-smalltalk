@@ -1,4 +1,4 @@
-#include "zephyrwindow.h"
+#include "zephyrwidget.h"
 
 ZephyrWidgetPtr make_zephyr_widget(int x, int y, int w, int h, ZephyrWidgetPtr zw)
 {
