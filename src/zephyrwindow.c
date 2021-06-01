@@ -44,13 +44,21 @@ void move_zehpyr_window(int x, int y, ZephyrWindowPtr zw)
 
 void paint_zephyr_window(SDL_Surface *screen, ZephyrWindowPtr zw)
 {
-
 	SDL_Rect rect;
 	rect.x = zw->zs->x; 
 	rect.y = zw->zs->y; 
 
 	SDL_BlitSurface(zw->surface, 0, screen, rect);
 	SDL_Flip(); // NOTE FIXME put in seperate method ?
+}
+
+void draw_on_zephyr_window(SDL_Surface *s, ZephyrWindowPtr zw)
+{
+	SDL_Rect rect;
+	rect.x = x; 
+	rect.y = y; 
+
+	SDL_BlitSurface(s, 0, zw->surface, rect);
 }
 
 void write_out_zephyr_window(long int offset, ZephyrStructurePtr zs, ZephyrBehaviourPtr zbh, ImageBufPtr buf)

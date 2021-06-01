@@ -20,6 +20,7 @@ void delete_zephyr_window(ZephyrWindowPtr zw);
 void move_zehpyr_window(int x, int y, ZephyrWindowPtr zw);
 
 void paint_zephyr_window(SDL_Surface *screen, ZephyrWindowPtr zw);
+void draw_on_zephyr_window(int x, int y, SDL_Surface *s, ZephyrWindowPtr zw);
 
 void write_out_zephyr_window(long int offset, ZephyrStructurePtr zs, ZephyrBehaviourPtr zbh, ImageBufPtr buf);
 
