@@ -4,7 +4,7 @@
 #include <pragmas.h>
 "
 
-Object subclass: #SubWindow
+Object subclass: #SubWindow "System Window"
 	instance:''
         class: 'pixels x y width height'
 
